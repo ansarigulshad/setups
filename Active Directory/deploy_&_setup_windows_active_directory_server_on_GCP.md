@@ -27,7 +27,7 @@ Administrator's credentials are required in further steps
 ##### a) Add `DNS Server` and `AD DS` Roles
 * Promote this server to a domain controller
 
-_AD Server will be rebooted automatically after this setup
+_AD Server will be rebooted automatically after this setup_
 
 ##### b) Login with 'administrator' credentials
 
