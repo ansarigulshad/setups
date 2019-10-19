@@ -1,5 +1,5 @@
 
-1 .[Setup LDAP Server](https://github.com/ansarigulshad/setups/blob/master/Active%20Directory/openLdap%20-%20Commands.md "Setup LDAP Server")
+1. [Setup LDAP Server](https://github.com/ansarigulshad/setups/blob/master/openldap/Setup%20OpenLDAP%20server.md "Setup LDAP Server")
 
 2. [Add users and groups trough CLI](https://github.com/dabsterindia/LABs/blob/master/Active%20Directory/openLdap%20-%20Commands.md "Most Useful commands in openLdap")
 
