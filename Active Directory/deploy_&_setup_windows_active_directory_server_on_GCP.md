@@ -39,4 +39,4 @@ _AD Server will be rebooted automatically after this setup_
 #### Step 6: Create OU, Groups & Users
 * AD Dashboard --> Manage --> Active Directory Users & Compunters
 
-[Add users & groups through a shell script](https://github.com/ansarigulshad/scripts/tree/master/shell/ActiveDirectory "")
+Optional : [shell script to add users & groups to ad](https://github.com/ansarigulshad/scripts/tree/master/shell/ActiveDirectory "")
