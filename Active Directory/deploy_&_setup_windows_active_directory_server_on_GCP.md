@@ -4,7 +4,7 @@
 ### Step 1: Launch Windows Server Instance on GCP
 * Compute Engine
        --> Create Instance
-              --> Deploy Instance with Windows server image
+* Deploy Instance with Windows server image
 
 ```
 eg:
