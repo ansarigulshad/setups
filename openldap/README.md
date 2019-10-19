@@ -5,4 +5,4 @@
 
 3. [Install and Setup phpLDAPAdmin](https://github.com/ansarigulshad/setups/blob/master/openldap/setup_phpLDAPAdmin.md "")
 
-4. [Setup SSL/TLS security for OpenLDAP Server](https://github.com/dabsterindia/LABs/blob/master/Active%20Directory/OpenLDAP%20over%20SSL.md "")
+4. [Setup SSL/TLS security for OpenLDAP Server](https://github.com/ansarigulshad/setups/blob/master/openldap/Enable_SSL_TLS_on_openLDAP.md "")
