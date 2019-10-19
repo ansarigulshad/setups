@@ -25,12 +25,12 @@ Administrator's credentials are required in further steps
 3) Active Directory Certificate Service (AD CS)
 
 ##### a) Add `DNS Server` and `AD DS` Roles
-##### * Promote this server to a domain controller (AD Server will be rebooted automatically after this setup)
+* _Promote this server to a domain controller (AD Server will be rebooted automatically after this setup)
 
 ##### b) Login with 'administrator' credentials
 
 ##### c) Add `AD CS` Role
-##### * Configure Active Directory Certificate Service on the destination server
+* _Configure Active Directory Certificate Service on the destination server
 
 ##### d) Reboot Ad Server after setting up AD DS successfully
 
