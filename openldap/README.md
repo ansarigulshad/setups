@@ -1,7 +1,7 @@
 
 1. [Setup LDAP Server](https://github.com/ansarigulshad/setups/blob/master/openldap/Setup%20OpenLDAP%20server.md "Setup LDAP Server")
 
-2. [Add users and groups trough CLI](https://github.com/dabsterindia/LABs/blob/master/Active%20Directory/openLdap%20-%20Commands.md "Most Useful commands in openLdap")
+2. [Add users and groups trough CLI](https://github.com/ansarigulshad/setups/blob/master/openldap/openldap_commands.md "The Most Common openLDAP Commands")
 
 3. [Install and Setup phpLDAPAdmin](https://github.com/dabsterindia/LABs/blob/master/Active%20Directory/Install%20phpLDAPadmin.md "")
 
