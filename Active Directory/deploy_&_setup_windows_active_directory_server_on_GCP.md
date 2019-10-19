@@ -3,8 +3,11 @@
 
 ### Step 1: Launch Windows Server Instance on GCP
 > Compute Engine
+
 > Create Instance
+
 > Deploy Instance with Windows server image
+
 ```
 eg:
 Windows Server 2012 R2 Datacenter
