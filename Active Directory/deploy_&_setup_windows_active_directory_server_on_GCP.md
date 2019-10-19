@@ -14,9 +14,24 @@ Server with Desktop Experience, x64 built on 20191008
 
 #### Step 2: Generate username and password for firt time login
 
+#### Step 3: Login AD server with same username/password we generated in step 2
 
-#### Step 1: 
+#### Step 4: Setup password for 'Administrator' account
+Administrator's credentials are required in further steps
 
-#### Step 1: 
+#### Step 5: Once loged-in, Add following Roles and features
+1) DNS Server
+2) Active Directory Domain Services (AD DS)
+3) Active Directory Certificate Service (AD CS)
 
-#### Step 1: 
+##### a) Add `DNS Server` and `AD DS` Roles
+##### * Promote this server to a domain controller (AD Server will be rebooted automatically after this setup)
+
+##### b) Login with 'administrator' credentials
+
+##### c) Add `AD CS` Role
+##### * Configure Active Directory Certificate Service on the destination server
+
+##### d) Reboot Ad Server after setting up AD DS successfully
+
+#### Step 6: 
