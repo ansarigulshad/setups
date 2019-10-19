@@ -37,5 +37,5 @@ _AD Server will be rebooted automatically after this setup_
 ##### d) Reboot AD Server after setting up AD DS successfully
 
 #### Step 6: Create OU, Groups & Users
-AD Dashboard --> Manage --> Active Directory Users & Compunters
+* AD Dashboard --> Manage --> Active Directory Users & Compunters
 
