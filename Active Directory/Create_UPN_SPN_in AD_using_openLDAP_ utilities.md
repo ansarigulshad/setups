@@ -72,8 +72,17 @@ ldap_add: No such attribute (16)
 
 ### Step 4: Add user account to AD (user will be added under $ARG_USER_BASE)
 ```
-LDAPTLS_REQCERT=never ldapadd -x -H "${ARG_LDAPURI}" -a -D "${ARG_BINDDN}" -f /tmp/$FIRSTNAME.ldif -w "${ARG_USERPSWD}" 
+LDAPTLS_REQCERT=never ldapadd -x -H "${ARG_LDAPURI}" -a -D "${ARG_BINDDN}" -w "${ARG_USERPSWD}" -f /tmp/$FIRSTNAME.ldif 
+
+# OUTPUT 
+adding new entry "CN=gulshad ansari,OU=CLD_HDP,DC=HWX,DC=COM"
+
+modifying entry "CN=gulshad ansari,OU=CLD_HDP,DC=HWX,DC=COM"
+
+modifying entry "CN=gulshad ansari,OU=CLD_HDP,DC=HWX,DC=COM"
 ```
+
+__________________________________________________________________________________________________
 
 ## 2. ADD SERVICE PRINCIPAL AND CREATE KEYTAB
 
