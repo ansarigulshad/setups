@@ -134,9 +134,9 @@ replace: userAccountControl
 userAccountControl: 66048
 ```
 
-### Step 4: Add user account to AD (user will be added under $ARG_USER_BASE)
+### Step 4: Add service principal to AD
 ```
-LDAPTLS_REQCERT=never ldapadd -x -H "${ARG_LDAPURI}" -a -D "${ARG_BINDDN}" -f /tmp/$FIRSTNAME.ldif -w "${ARG_USERPSWD}" 
+LDAPTLS_REQCERT=never ldapadd -x -H "${ARG_LDAPURI}" -a -D "${ARG_BINDDN}" -w "${ARG_USERPSWD}" -f /tmp/$FIRSTNAME.ldif  
 ```
 
 ### Step 5: Create Keytab (Login to linux server and run below commands)
