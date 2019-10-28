@@ -16,6 +16,10 @@ FIRSTNAME="gulshad"
 LASTNAME="ansari"
 ```
 
+```
+LDAPTLS_REQCERT=never ldapsearch -x -H "${ARG_LDAPURI}" -D "${ARG_BINDDN}" -w "${ARG_USERPSWD}" -b "${ARG_USER_BASE}" 
+```
+
 ### Step 2: Create unicode Password for the above ad user with the password Welcome@123
 ```
 ARG_NewUserPass=`echo -n '"Welcome@123"' | iconv -f UTF8 -t UTF16LE | base64 -w 0`
