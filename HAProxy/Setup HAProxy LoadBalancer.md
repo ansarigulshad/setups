@@ -101,7 +101,7 @@ backend app-main
     cookie SERVERID insert indirect nocache
     http-request set-header X-Forwarded-Port %[dst_port]
     http-request add-header X-Forwarded-Proto https if { ssl_fc }
-#    server c3230-node1 c3230-node1.coelab.cloudera.com:30800 check    # for non-ssl services
+#    server c3230-node1 c3230-node1.coelab.cloudera.com:30800 check    #if end-service is not secured with https
     server knox1 edge-knox1.cloudera.com:8443 ssl verify none cookie knox1
     server knox2 edge-knox2.cloudera.com:8443 ssl verify none cookie knox2
 EOFILE
