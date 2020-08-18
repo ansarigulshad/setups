@@ -106,7 +106,7 @@ backend app-main
 EOFILE
 ```
 
-_Kindly update hostname & port number of your service according to your setup
+_Kindly update hostname & port number of your service according to your setup_
 
 ### Step 6 : Start/Restart HAProxy service
 ```
