@@ -1,4 +1,4 @@
-# Setup HAProxy Loadbalancer on CentOS/RHEL-7
+# Setup SSL enabled HAProxy Loadbalancer on CentOS/RHEL-7
 
 
 ### Step 1 : Install Required Packages
