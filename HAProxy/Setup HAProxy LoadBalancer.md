@@ -27,7 +27,7 @@ cat /etc/haproxy/haproxy.key /etc/haproxy/haproxy.crt > /etc/haproxy/haproxy.pem
 
 ### Step 5 : Create new `haproxy.cfg` file.
 ```
-cat > haproxy.cfg <<EOFILE
+cat > /etc/haproxy/haproxy.cfg <<EOFILE
 #---------------------------------------------------------------------
 # Global settings
 #---------------------------------------------------------------------
