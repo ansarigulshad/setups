@@ -115,6 +115,7 @@ systemctl restart haproxy
 
 ### Step 7 : Validate
 ```
+curl http://`hostname -f`:80
 curl https://`hostname -f`:443
 curl -k https://`hostname -f`:443
 openssl s_client -connect `hostname -f`:443 -showcerts
