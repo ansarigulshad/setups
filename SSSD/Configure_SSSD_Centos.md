@@ -38,7 +38,7 @@ ldap_schema = rfc2307bis
 cache_credentials = true
 enumerate = True   # without this `getent passwd` will show only local users
 
-# krb5_server = adserver.dabsterinc.com
+# krb5_server = adserver.cloudera.com
 # krb5_realm = CLOUDERA.COM
 
 ###Update the AD server and other details ###
