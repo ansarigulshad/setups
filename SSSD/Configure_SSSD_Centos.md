@@ -65,7 +65,8 @@ ldap_group_objectsid = objectSid
 ldap_user_primary_group = primaryGroupID
 case_sensitive = false
 ldap_id_mapping = true
-fallback_homedir = /home/%u
+override_homedir = /home/%u
+#fallback_homedir = /home/%u
 default_shell = /bin/bash
  
 [nss]
@@ -146,6 +147,12 @@ As sssd does caching of users on first start, sssd startup may take time as it h
 ##### Check Status
 `systemctl status sssd`
 
-##### Clear Cache
+##### Invalidate all cached entries
+`sss_cache -E`
+
+##### Invalidate cache for specific user
+`sss_cache -u user1`
+
+##### Clear Cache files
 `systemctl stop sssd; rm -rf /var/log/sssd/* /var/lib/sss/{db,mc}/*; systemctl start sssd`
 
